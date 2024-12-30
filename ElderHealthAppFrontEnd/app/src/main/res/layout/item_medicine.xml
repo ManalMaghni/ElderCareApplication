@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginBottom="8dp"
+    android:gravity="center_vertical">
+
+    <!-- Utilisation d'un TextView comme icône -->
+    <TextView
+        android:id="@+id/textMedIcon"
+        android:layout_width="69dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="12dp"
+        android:gravity="center"
+        android:text="💊"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textMedName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom du Médicament"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"/>
+
+        <TextView
+            android:id="@+id/textMedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heure de prise"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+</LinearLayout>

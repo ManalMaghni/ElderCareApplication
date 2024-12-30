@@ -1,0 +1,9 @@
+<!-- res/menu/drawer_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_view_meds"
+        android:title="Voir Médicaments" />
+    <item
+        android:id="@+id/nav_add_med"
+        android:title="Ajouter Médicament" />
+</menu>

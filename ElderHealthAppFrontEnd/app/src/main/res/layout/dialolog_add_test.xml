@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputNomTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom du test" />
+
+    <EditText
+        android:id="@+id/inputValeurTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valeur du test" />
+
+    <Button
+        android:id="@+id/btnAddTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter" />
+</LinearLayout>
